@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/start_text_wlc"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_anim_list"
+    tools:context="com.project.sam.guguchat.StartActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/start_login_btn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="21dp"
+        android:text="@string/welcome__gugu_chat"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+        android:visibility="invisible" />
+
+
+    <Button
+        android:id="@+id/start_reg_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/linearLayout2"
+        android:layout_alignEnd="@+id/start_login_btn"
+        android:background="@drawable/buttons"
+        android:backgroundTint="@android:color/white"
+        android:padding="10dp"
+        android:text="@string/need_a_new_account"
+        android:textColor="?attr/colorPrimaryDark" />
+
+
+
+
+
+    <Button
+        android:id="@+id/start_login_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttons"
+        android:padding="7dp"
+        android:layout_alignBottom="@+id/start_reg_btn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="57dp"
+        android:text="ALREADY HAVE ACCOUNT"
+        android:textColor="@android:color/white" />
+
+
+
+
+
+<com.balysv.materialripple.MaterialRippleLayout
+    android:id="@+id/ripple_image"
+    app:mrl_rippleColor="@color/bg_screen2"
+    app:mrl_rippleDuration="500"
+    app:mrl_rippleDimension="200dp"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:layout_above="@+id/textView"
+    >
+
+    <ImageView
+        android:id="@+id/start_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="48dp"
+        android:padding="10dp"
+        app:srcCompat="@drawable/chat_start_fin" />
+
+
+
+
+</com.balysv.materialripple.MaterialRippleLayout>
+
+    <ImageView
+        android:id="@+id/start_image2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="48dp"
+        android:padding="10dp"
+        app:srcCompat="@drawable/chat_start_fin" />
+
+<com.balysv.materialripple.MaterialRippleLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:mrl_rippleColor="@color/colorLight"
+    android:layout_centerInParent="true"
+    >
+
+
+
+
+
+</com.balysv.materialripple.MaterialRippleLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_alignParentBottom="true"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout2">
+
+        <TextView
+            android:id="@+id/start_sign"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginBottom="25dp"
+            android:text="Welcome to Gugu chat app. Please Sign in/Create an account to \n                                                  enjoy"
+            android:textColor="#ffffff"
+            android:textSize="10dp"
+            android:textStyle="italic|bold" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

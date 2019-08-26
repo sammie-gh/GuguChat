@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "1008420706735",
+    "firebase_url": "https://guguchat-223ec.firebaseio.com",
+    "project_id": "guguchat-223ec",
+    "storage_bucket": "guguchat-223ec.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1008420706735:android:b6a15646bcac285e",
+        "android_client_info": {
+          "package_name": "com.project.sam.guguchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1008420706735-rkdrk7k16ih07kdpfmga5e132u7baplp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.project.sam.guguchat",
+            "certificate_hash": "ccbef8c96e9812636b7dd93732e6c0f7509ab204"
+          }
+        },
+        {
+          "client_id": "1008420706735-6blsq2an9ua1sndmb1llnh4j9k0p3308.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.project.sam.guguchat",
+            "certificate_hash": "4a583b2cfad76b0afefb845ec303892c9f52a747"
+          }
+        },
+        {
+          "client_id": "1008420706735-kufc0543glbui8l3tavkddgg75u3udop.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDlLlzx3zpUNMZRhLbcSIeNq6v7SVzmdVM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1008420706735-kufc0543glbui8l3tavkddgg75u3udop.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#F50057</color>
+    <color name="colorPrimaryDark">#bb002f</color>
+    <color name="colorLight">#ff5983</color>
+
+
+    <color name="colorAccent">#ff5983</color>
+    <color name="chat">#bcb9b9</color>
+
+    <color name = "ButtonsColor">#e91e63</color>
+
+
+    <color name="ColorAvatar">#f5eee5</color>
+    <color name="colorpopup">#FFFFFFFF</color>
+    <color name="colorpopuptext">#0f0d0d</color>
+
+
+
+    <color name="AccentBack">#ec3f0a</color>
+
+
+
+    <!-- Screens background color-->
+    <color name="bg_screen1">#e91e63</color>
+    <color name="bg_screen2">#aa00ff</color>
+    <color name="bg_screen3">#e91e63</color>
+    <color name="bg_screen4">#ef6c00</color>
+
+    <color name="navigationBar">#25364a</color>
+    <color name="white">#ffffff</color>
+    <color name="green">#00a900</color>
+    <color name="lightBlue">#00bcd4</color>
+    <color name="lightGreen">#00c7a0</color>
+    <color name="lightBlack">#5a7785</color>
+    <color name="greenLight">#36bb9e</color>
+    <color name="red">#F44336</color>
+    <color name="textDark">#111e2d</color>
+    <color name="blackBg">#242424</color>
+    <color name="lightBg">#657790</color>
+
+
+    <color name="yellow">#e28812</color>
+    <!-- refresh -->
+    <color name="refresh">#cd2d99</color>
+    <color name="black">#000000</color>
+    <color name="refresh1">#008080</color>
+    <color name="refresh2">#800800</color>
+    <color name="grey">#bfbfbf</color>
+    <color name="forestGreen">#39796b</color>
+    <color name="Green">#A9d440</color>
+
+</resources>
